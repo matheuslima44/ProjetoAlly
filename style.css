@@ -1,0 +1,90 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    header{ 
+        display: flex;
+        align-items: center; /*deixar o conteudo do formulario centralizado */
+        justify-content: center;
+        padding: 20px;
+        background-color: blue;
+        color: black;
+        font-family: cambria, arial;  
+    } 
+
+
+    section{ /* posição dos titulos nome, email etc */
+        display: flex;
+        align-items: left;
+        justify-content: 20%;
+        margin-top: 2%;
+        height: 80vh;
+        margin-left: 90px;
+    }
+
+    form{
+        font-family: Arial; /*fonte dos titulos, nome, email etc*/
+    }
+
+    form div{ /*posição dos campos para o cliente digitar*/
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 80px;
+        margin-top: 15px;
+    }
+
+    form input{ /*Estilo da class dados pessoais*/
+        outline: unset;
+        padding: 20px;
+        min-width: 300px;
+        border: 1px solid;
+        border-radius: 20px;
+
+    }
+
+    form input:focus{
+        background-color: blue; /*para colocar uma cor, no campo que foi selecionado para o cliente */ 
+    }
+
+    form input[type=submit] { /* cor dos titulos, dados pessoais e destinos de interesses*/
+        background-color: lightblue;
+        color: black;
+        cursor: pointer; /*para que o cursor do mouse mude apos passar em cima do botão enviar */
+        margin-top: 5%;
+    }
+
+    fieldset{ /*Configuração da borda das classes*/
+        border: 1px solid;
+        border-radius: 5px;
+    }
+
+
+    #titulo1{ /*Para diferenciar o fundo dos titulos*/
+        background-color: lightblue;
+
+    }
+
+    #titulo2 {/*Para diferenciar o fundo dos titulos*/
+        background-color: lightblue;
+    }
+
+
+
+    nav{ /*arrumei as classes uma do lado da outra */
+        margin-left: 800px; /*direcionar a area de navegação de destinos ao lado dos dados pessoais */
+        margin-top: -500px ;
+    }
+
+
+    .img_rod{ /*ajuste do rodapé*/
+        width: 1350px;
+        height: 700px;
+        object-fit: cover;
+        margin-top: 25px;
+    }
+
+    
